@@ -20,9 +20,6 @@ class Originator:
         self.apply_diff(diff)
         return self._state
 
-    def export(self) -> Memento:
-        return ConcreteMemento(self._state)
-
     def hash(self):
         self._hash = sha256(bytes(self._state, 'ascii')).digest().hex()
 
