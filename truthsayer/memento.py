@@ -20,12 +20,16 @@ class Originator:
         self.apply_diff(diff)
         return self._state
 
+    def backup(self):
+        self.hash()
+        return self._state
+
     def hash(self):
         self._hash = sha256(bytes(self._state, 'ascii')).digest().hex()
 
     def do_stuff(self, something):
         self._state = something
-        self.hash()
+
 
 
 
@@ -66,7 +70,7 @@ class Caretaker():
     def backup(self) -> None:
         self._future = []
         original = self._state
-        revision = self._originator._state
+        revision = self._originator.backup()
         diff = self.get_diff(revision, original)
         memento = ConcreteMemento(diff)
         self._past.append(memento)
