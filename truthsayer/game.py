@@ -74,12 +74,12 @@ class Game(Originator):
         return super().backup()
 
     def moveToken(self, source_area, target_area, token, number):
-        self.moveAsset('tokens', source_area, target_area, token)
+        self.moveAsset('tokens', source_area, target_area, token, number)
 
     def moveCard(self, source_area, target_area, card):
         self.moveAsset('cards', source_area, target_area, card)
 
-    def moveAsset(self, asset_type, source_area, target_area, asset):
+    def moveAsset(self, asset_type, source_area, target_area, asset, number):
         self.validateArea(source_area, asset_type)
         self.validateArea(target_area, asset_type)
         self.validateAsset(source_area, asset_type, asset, number=number)
@@ -118,7 +118,7 @@ class Game(Originator):
 
     def validateAsset(self, area_name, asset_type, asset, number=None):
         if asset not in self._game_state['state']['areas'][area_name][asset_type].keys():
-            raise InsufficientResources(self._id, self._hash, asset, source_area)
+            raise InsufficientResources(self._id, self._hash, asset, area_name)
         if number is None:
             return
         if self._game_state['state']['areas'][area_name][asset_type][asset] < number:

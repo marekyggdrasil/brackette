@@ -17,5 +17,10 @@ setuptools.setup(
         "Programming Language :: Python :: 2",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
-    ]
+    ],
+    include_package_data=True,
+    package_data = {
+        # If any package contains *.txt or *.rst files, include them:
+        '': ['assets/__init__.py', 'assets/*.json'],
+    }
 )
