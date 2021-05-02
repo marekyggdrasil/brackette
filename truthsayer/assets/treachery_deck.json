@@ -97,6 +97,30 @@
       "occurences": 1
     },
     {
+      "card": "weather_control",
+      "type": "Special",
+      "subtype": "Storm",
+      "header": "Weather Control",
+      "description": "After the first game turn, play during the Storm Phase before the Storm Marker is moved. When you play this card, you control the storm this phase and may move it from 0 to 10 sectors in a counterclockwise direction.",
+      "occurences": 1
+    },
+    {
+      "card": "hajr",
+      "type": "Special",
+      "subtype": "Movement",
+      "header": "Hajr",
+      "description": "Play during Movement Phase. Make an extra on-planet force movement subject to normal movement rules. The forces you move may be a group you've already moved this phase or another group.",
+      "occurences": 1
+    },
+    {
+      "card": "family_atomics",
+      "type": "Special",
+      "subtype": "Storm",
+      "header": "Family Atomics",
+      "description": "After the first game turn, play after the storm movement is calculated, but before the storm is moved, but only if you have one or more forces on the Shield Wall or a territory adjacent to the Shield Wall with no storm between your sector and the Wall. All forces on the Shield Wall are destroyed. Place the Destroyed Shield Wall token on the Shield Wall as a reminder. The Imperial Basin, Arrakeen and Carthag are no longer protected from the Storm for the rest of the game.",
+      "occurences": 1
+    },
+    {
       "card": "truthtrance",
       "type": "Special",
       "subtype": null,
@@ -113,35 +137,51 @@
       "occurences": 1
     },
     {
-      "card": "",
-      "type": "",
-      "subtype": "",
-      "header": "",
-      "description": "",
+      "card": "karama",
+      "type": "Sepcial",
+      "subtype": null,
+      "header": "Karama",
+      "description": "After factions complete their 'At Start' actions and after game set0up, use this card to stop a player from using one of their factions advantages when they attempt to use it. Stops the use of that advantage during one game phase.\n\nOr, this card may be used to do either of these things when appropriate:\n* Purchase a shipment of forces onto the planet at Guild Rates (1/2 normal) paid to the Spice Bank, or\n *Purchase a Treachery Card without paying spice for it\nCannot be used to stop a win condition advantage. Discard after use.",
+      "occurences": 2
+    },
+    {
+      "card": "trip_to_gamont",
+      "type": "Worthless Card",
+      "subtype": null,
+      "header": "Trip to Gamont",
+      "description": "Play as part of your Battle Plan, in place of a weapon, defense or both. This card has no value in play, and you can discard it only by playing it in your Battle Plan.",
       "occurences": 1
     },
     {
-      "card": "",
-      "type": "",
-      "subtype": "",
-      "header": "",
-      "description": "",
+      "card": "lalala",
+      "type": "La, La, La",
+      "subtype": null,
+      "header": "Trip to Gamont",
+      "description": "Play as part of your Battle Plan, in place of a weapon, defense or both. This card has no value in play, and you can discard it only by playing it in your Battle Plan.",
       "occurences": 1
     },
     {
-      "card": "",
-      "type": "",
-      "subtype": "",
-      "header": "",
-      "description": "",
+      "card": "kulon",
+      "type": "Worthless Card",
+      "subtype": null,
+      "header": "Kulon",
+      "description": "Play as part of your Battle Plan, in place of a weapon, defense or both. This card has no value in play, and you can discard it only by playing it in your Battle Plan.",
       "occurences": 1
     },
     {
-      "card": "",
-      "type": "",
-      "subtype": "",
-      "header": "",
-      "description": "",
+      "card": "jubba_cloak",
+      "type": "Worthless Card",
+      "subtype": null,
+      "header": "Jubba Cloak",
+      "description": "Play as part of your Battle Plan, in place of a weapon, defense or both. This card has no value in play, and you can discard it only by playing it in your Battle Plan.",
+      "occurences": 1
+    },
+    {
+      "card": "baliset",
+      "type": "Worthless Card",
+      "subtype": null,
+      "header": "Baliset",
+      "description": "Play as part of your Battle Plan, in place of a weapon, defense or both. This card has no value in play, and you can discard it only by playing it in your Battle Plan.",
       "occurences": 1
     }
   ]
