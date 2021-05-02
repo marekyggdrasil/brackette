@@ -1,0 +1,148 @@
+{
+  "treachery_deck": [
+    {
+      "card": "cheap_hero",
+      "type": "Special",
+      "subtype": "Leader",
+      "header": "Cheap Hero",
+      "description": "Play as a leader with zero strength on your Battle Plan and discard after the battle. You may also play a weapon and a defense. The cheap hero may be played in place of a leader or when you have no leaders available.",
+      "occurences": 3
+    },
+    {
+      "card": "snooper",
+      "type": "Defense",
+      "subtype": "Poison",
+      "header": "Snooper",
+      "description": "Play as part of your Battle Plan. Protects your leader from a poison weapon in this battle. You may keep this card you win this battle.",
+      "occurences": 4
+    },
+    {
+      "card": "shield",
+      "type": "Defense",
+      "subtype": "Projectile",
+      "header": "Shield",
+      "description": "Play as part of your Battle Plan. Protects your leader from a projectile weapon in this battle. You may keep this card if you win this battle.",
+      "occurences": 4
+    },
+    {
+      "card": "basilia_weapon",
+      "type": "Weapon",
+      "subtype": "Poison",
+      "header": "Basilia Weapon",
+      "description": "Play as part of your Battle Plan. Kills opponent's leader before battle is resolved. Opponent may protect leader with a Snooper. You may keep this card if you win this battle.",
+      "occurences": 1
+    },
+    {
+      "card": "Chaumurky",
+      "type": "Weapon",
+      "subtype": "Poison",
+      "header": "Chaumurky",
+      "description": "Play as part of your Battle Plan. Kills opponent's leader before battle is resolved. Opponent may protect leader with a Snooper. You may keep this card if you win this battle.",
+      "occurences": 1
+    },
+    {
+      "card": "chaumas",
+      "type": "Weapon",
+      "subtype": "Poison",
+      "header": "Chaumas",
+      "description": "Play as part of your Battle Plan. Kills opponent's leader before battle is resolved. Opponent may protect leader with a Snooper. You may keep this card if you win this battle.",
+      "occurences": 1
+    },
+    {
+      "card": "gom_jabbar",
+      "type": "Weapon",
+      "subtype": "Poison",
+      "header": "Gom Jabbar",
+      "description": "Play as part of your Battle Plan. Kills opponent's leader before battle is resolved. Opponent may protect leader with a Snooper. You may keep this card if you win this battle.",
+      "occurences": 1
+    },
+    {
+      "card": "slip_tip",
+      "type": "Weapon",
+      "subtype": "Projectile",
+      "header": "Slip Tip",
+      "description": "Play as part of your Battle Plan. Kills opponent's leader before battle is resolved. Opponent may protect leader with a Shield. You may keep this card if you win this battle.",
+      "occurences": 1
+    },
+    {
+      "card": "stunner",
+      "type": "Weapon",
+      "subtype": "Projectile",
+      "header": "Stunner",
+      "description": "Play as part of your Battle Plan. Kills opponent's leader before battle is resolved. Opponent may protect leader with a Shield. You may keep this card if you win this battle.",
+      "occurences": 1
+    },
+    {
+      "card": "crysknife",
+      "type": "Weapon",
+      "subtype": "Projectile",
+      "header": "Crysknife",
+      "description": "Play as part of your Battle Plan. Kills opponent's leader before battle is resolved. Opponent may protect leader with a Shield. You may keep this card if you win this battle.",
+      "occurences": 1
+    },
+    {
+      "card": "maula_pistol",
+      "type": "Weapon",
+      "subtype": "Projectile",
+      "header": "Maula Pistol",
+      "description": "Play as part of your Battle Plan. Kills opponent's leader before battle is resolved. Opponent may protect leader with a Shield. You may keep this card if you win this battle.",
+      "occurences": 1
+    },
+    {
+      "card": "lasgun",
+      "type": "Weapon",
+      "subtype": "Special",
+      "header": "Lasgun",
+      "description": "Play as part of your Battle Plan. Kills opponent's leader before battle is resolved. Opponent may protect leader with a Shield. You may keep this card if you win this battle. If anyone plays a Shield in this battle, all forces, leaders, and spice in this battle's territory are lost to the Tleilaxu Tanks and Spice Bank. Both players lose this battle, no spice is paid for leaders, and all cards played are discarded.",
+      "occurences": 1
+    },
+    {
+      "card": "truthtrance",
+      "type": "Special",
+      "subtype": null,
+      "header": "Truthtrance",
+      "description": "Publicly ask one other player a single yes/no question about the game that must be answered publicly. The game pauses until an answer is given. The player must answer 'yes' or 'no' truthfully.",
+      "occurences": 2
+    },
+    {
+      "card": "tleilaxu_ghola",
+      "type": "Special",
+      "subtype": null,
+      "header": "Tleilaxu Ghola",
+      "description": "Play at any time to gain an extra revival. You may immediately revive 1 of your leaders regardless of how many leaders you have in the tanks or up to 5 of your forces from the Tleilaxu Tanks to your reserves at no cost in spice. You still get your normal revivals.",
+      "occurences": 1
+    },
+    {
+      "card": "",
+      "type": "",
+      "subtype": "",
+      "header": "",
+      "description": "",
+      "occurences": 1
+    },
+    {
+      "card": "",
+      "type": "",
+      "subtype": "",
+      "header": "",
+      "description": "",
+      "occurences": 1
+    },
+    {
+      "card": "",
+      "type": "",
+      "subtype": "",
+      "header": "",
+      "description": "",
+      "occurences": 1
+    },
+    {
+      "card": "",
+      "type": "",
+      "subtype": "",
+      "header": "",
+      "description": "",
+      "occurences": 1
+    }
+  ]
+}
