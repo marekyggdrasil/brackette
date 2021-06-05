@@ -4,6 +4,8 @@ from abc import ABC, abstractmethod
 from diff_match_patch import diff_match_patch
 from hashlib import sha256
 
+import json
+
 
 class Originator:
     def __init__(self):
@@ -31,6 +33,15 @@ class Originator:
         self._state = something
 
 
+class OriginatorJSON(Originator):
+    def __init__(self):
+        super().__init__()
+        self._object_state = {}
+        self._state = self.backup()
+
+    def backup(self):
+        self._state = json.dumps(self._object_state)
+        return super().backup()
 
 
 # https://refactoring.guru/design-patterns/memento/python/example
