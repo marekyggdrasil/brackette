@@ -1,7 +1,7 @@
 # truthsayer
 
 ```python
-from truthsayer.memento import Originator, Caretaker
+from mementor.memento import Originator, Caretaker
 
 originator = Originator()
 caretaker = Caretaker(originator)
