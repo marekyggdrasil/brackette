@@ -3,9 +3,9 @@ import setuptools
 setuptools.setup(
     name='truthsayer',
     version='0.0.1',
-    packages=['truthsayer',],
+    packages=['mementor',],
     license='MIT',
-    description = 'Package that manages state of Dune the Boardgame',
+    description = 'Package that manages a state using memento design pattern',
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
     author = 'Marek Narozniak',
