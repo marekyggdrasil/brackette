@@ -1,6 +1,6 @@
 import unittest
 
-from mementor.memento import Originator, Caretaker
+from mementeur.memento import Originator, Caretaker
 
 
 class FlaskTest(unittest.TestCase):

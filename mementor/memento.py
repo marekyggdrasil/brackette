@@ -1,5 +1,5 @@
 from __future__ import annotations
-from mementor.time import generateUTCTimestamp, tsToHuman
+from mementeur.time import generateUTCTimestamp, tsToHuman
 from abc import ABC, abstractmethod
 from diff_match_patch import diff_match_patch
 from hashlib import sha256
