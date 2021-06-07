@@ -1,9 +1,9 @@
 import setuptools
 
 setuptools.setup(
-    name='truthsayer',
+    name='brackette',
     version='0.0.1',
-    packages=['mementeur',],
+    packages=['brackette',],
     license='MIT',
     description = 'Package that manages a state using memento design pattern',
     long_description=open('README.md').read(),

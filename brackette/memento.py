@@ -1,5 +1,5 @@
 from __future__ import annotations
-from mementeur.time import generateUTCTimestamp, tsToHuman
+from brackette.time import generateUTCTimestamp, tsToHuman
 from abc import ABC, abstractmethod
 from diff_match_patch import diff_match_patch
 from hashlib import sha256
@@ -34,9 +34,9 @@ class Originator:
 
 
 class OriginatorJSON(Originator):
-    def __init__(self):
+    def __init__(self, object_state={}):
         super().__init__()
-        self._object_state = {}
+        self._object_state = object_state
         self._state = self.backup()
 
     def backup(self):
