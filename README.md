@@ -1,7 +1,13 @@
-# truthsayer
+# Brackette
+
+![project logo](https://github.com/marekyggdrasil/brackette/blob/main/assets/g2bXh9SVE6.png?raw=true)
+
+A simple state manager implementing the [memento design pattern](https://en.wikipedia.org/wiki/Memento_pattern) and heavily based on [the tutorial from refactoring.guru](https://refactoring.guru/design-patterns/memento/python/example).
+
+The brackette (*a bracket-cassette*) logo was scribbled by [@PostSin](https://slatepacks.com/u/PostSin) on [slatepacks.com marketplace](https://slatepacks.com/post/10) for which I paid 2ツ (ツ is [grin cryptocurrency](https://grin.mw/)) and it was best deal ever!
 
 ```python
-from mementeur.memento import Originator, Caretaker
+from brackette.memento import Originator, Caretaker
 
 originator = Originator()
 caretaker = Caretaker(originator)
