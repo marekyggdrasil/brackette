@@ -11,7 +11,7 @@ setuptools.setup(
     author = 'Marek Narozniak',
     author_email = 'marek.yggdrasil@gmail.com',
     install_requires=['diff-match-patch'],
-    url = 'https://github.com/marekyggdrasil/truthsayer',
+    url = 'https://github.com/marekyggdrasil/brackette',
     classifiers=[
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 2",
