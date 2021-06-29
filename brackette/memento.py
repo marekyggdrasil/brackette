@@ -39,6 +39,11 @@ class OriginatorJSON(Originator):
         self._object_state = object_state
         self._state = self.backup()
 
+    def revert(self, memento: Memento):
+        state = super().revert(memento)
+        self._object_state = json.loads(state)
+        return state
+
     def backup(self):
         self._state = json.dumps(self._object_state)
         return super().backup()

@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name='brackette',
-    version='0.0.1',
+    version='0.2.0',
     packages=['brackette',],
     license='MIT',
     description = 'Package that manages a state using memento design pattern',
