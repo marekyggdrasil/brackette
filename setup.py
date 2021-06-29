@@ -9,7 +9,7 @@ setuptools.setup(
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
     author = 'Marek Narozniak',
-    author_email = '',
+    author_email = 'marek.yggdrasil@gmail.com',
     install_requires=['diff-match-patch'],
     url = 'https://github.com/marekyggdrasil/truthsayer',
     classifiers=[
