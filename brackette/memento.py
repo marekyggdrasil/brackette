@@ -75,13 +75,39 @@ class ConcreteMemento(Memento):
     def get_date(self) -> str:
         return self._date
 
+    def toJSON(self):
+        return {
+            '_diff': self._diff,
+            '_date': self._date,
+            '_hash': self._hash
+        }
+
+    @classmethod
+    def fromJSON(self, obj: dict):
+        concr = ConcreteMemento(obj['_diff'])
+        concr._date = obj['_date']
+        concr._hash = obj['_hash']
+        return concr
+
 
 class Caretaker():
-    def __init__(self, originator: Originator) -> None:
-        self._past = []
-        self._future = []
+    def __init__(self, originator: Originator, _past=[], _future=[]) -> None:
+        self.setPast(_past)
+        self.setFuture(_future)
         self._originator = originator
         self._state = originator._state
+
+    def getPast(self):
+        return [_past.toJSON() for _past in self._past]
+
+    def setPast(self, lst):
+        self._past = [ConcreteMemento.fromJSON(obj) for obj in lst]
+
+    def getFuture(self):
+        return [_future.toJSON() for _future in self._future]
+
+    def setFuture(self, lst):
+        self._future = [ConcreteMemento.fromJSON(obj) for obj in lst]
 
     def backup(self) -> None:
         self._future = []
